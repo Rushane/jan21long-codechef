@@ -1,4 +1,11 @@
-/* package codechef; // don't place package name! */
+/* 
+	An encoder encodes the first 16 lowercase English letters using 4 bits each. 
+	The first bit (from the left) of the code is 0 if the letter lies among the first 8 letters, else it is 1, signifying that it lies among the last 8 letters. 
+	The second bit of the code is 0 if the letter lies among the first 4 letters of those 8 letters found in the previous step, else it's 1, signifying that it 
+	lies among the last 4 letters of those 8 letters. Similarly, the third and the fourth bit each signify the half in which the letter lies.
+
+	Source:https://www.codechef.com/JAN21C/problems/DECODEIT
+*/
 
 import java.util.*;
 import java.lang.*;
